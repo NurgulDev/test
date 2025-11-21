@@ -60,7 +60,7 @@ export default function Register() {
     };
 
     return (
-        <section className={style.content}>
+        <section className={style.register}>
             <div className={style.header}>
                 <button
                     className={style.buttonText}

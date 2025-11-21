@@ -1,0 +1,15 @@
+<svg viewBox="0 0 70 76" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.000000" height="76.000000" fill="none" clip-path="url(#clipPath_6)" customFrame="url(#clipPath_6)">
+	<defs>
+		<clipPath id="clipPath_6">
+			<rect width="70.000000" height="76.000000" x="0.000000" y="0.000000" rx="10.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+		<clipPath id="clipPath_7">
+			<rect width="32.000000" height="32.000000" x="19.000000" y="22.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+	</defs>
+	<rect id="fixed-width" width="70.000000" height="76.000000" x="0.000000" y="0.000000" rx="10.000000" fill="rgb(60,64,61)" />
+	<g id="icon cool-icon-43" clip-path="url(#clipPath_7)" customFrame="url(#clipPath_7)">
+		<rect id="icon cool-icon-43" width="32.000000" height="32.000000" x="19.000000" y="22.000000" />
+		<path id="coolicon" d="M31.1443 51.4558L21.667 48.2945L21.667 26.8171L30.8563 29.8838L40.231 24.5225L48.3337 27.7638L48.3337 49.3025L40.4363 46.1425L31.1457 51.4558L31.1443 51.4558ZM24.3337 30.5225L24.3337 46.3718L29.667 48.1491L29.667 32.2931L24.3337 30.5225ZM37.667 29.0558L32.3337 32.1065L32.3337 47.7065L37.667 44.6558L37.667 29.0558ZM40.4363 27.4745L40.3337 27.5358L40.3337 43.2305L45.667 45.3638L45.667 29.5678L40.4363 27.4745Z" fill="rgb(255,255,255)" fill-rule="nonzero" />
+	</g>
+</svg>

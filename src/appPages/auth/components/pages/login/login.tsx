@@ -61,7 +61,7 @@ export default function Login() {
     };
 
     return (
-        <section className={style.content}>
+        <section className={style.login}>
             <Image
                 src={background}
                 className={style.background}
