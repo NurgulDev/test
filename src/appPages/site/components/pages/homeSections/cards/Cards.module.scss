@@ -1,0 +1,40 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    padding: 80px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    justify-content: center;
+    padding: 40px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    .cardTitle {
+        color: var(--text-color, rgba(37, 43, 66, 1));
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        text-align: left;
+    }
+    .cardDescription {
+        color: var(--second-text-color, rgba(115, 115, 115, 1));
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    .hr {
+        width: 40px;
+        margin-top: 15px;
+        height: 4px;
+        background-color: rgb(255, 128, 0);
+        border: none;
+        border-radius: 2px;
+    }
+}
