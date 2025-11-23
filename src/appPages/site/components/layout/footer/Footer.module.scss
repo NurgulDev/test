@@ -1,0 +1,128 @@
+.footer {
+  margin-top: 10%;
+  .footerHero {
+    .textFooter {
+      position: relative;
+      h1 {
+        color: rgba(11, 19, 42, 1);
+        font-family: Rubik;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+      h6 {
+        color: rgba(79, 86, 101, 1);
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+    }
+    .emailFooter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5%;
+      input {
+        color: var(--second-text-color, rgba(115, 115, 115, 1));
+        font-family: Montserrat;
+        font-size: 21.24px;
+        font-weight: 400;
+        line-height: 42.48px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        box-sizing: border-box;
+        border: 1.52px solid rgba(148, 148, 148, 1);
+        border-radius: 7.59px;
+        background: rgba(255, 255, 255, 1);
+        padding: 20px;
+        width: 50%;
+      }
+      button {
+        box-sizing: border-box;
+        border: 1.52px solid rgba(230, 230, 230, 1);
+        border-radius: 0px 7.59px 7.59px 0px;
+        background: var(--primary-color, rgba(35, 166, 240, 1));
+        color: var(--light-text-color, rgba(255, 255, 255, 1));
+        font-family: Montserrat;
+        font-size: 21px;
+        line-height: 4.3pc;
+        text-align: center;
+      }
+    }
+    .logoFooter {
+      background: rgba(245, 249, 252, 1);
+      width: 100%;
+      padding: 10pc 140px;
+      margin-top: -38px;
+      z-index: -1;
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+
+      .block1 {
+        h2 {
+          color: rgba(79, 86, 101, 1);
+          font-family: Rubik;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0%;
+          text-align: left;
+          margin: 10px 0;
+        }
+        .blockCircle {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          .circle {
+            border-radius: 10%;
+            width: 33.6px;
+            height: 33.6px;
+            background: rgba(35, 166, 240, 1);
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 10%;
+            -ms-border-radius: 10%;
+            -o-border-radius: 10%;
+          }
+        }
+        h5 {
+          color: rgba(175, 181, 192, 1);
+          font-family: Rubik;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0%;
+          margin-top: 10px;
+        }
+      }
+
+      .block2 {
+        h3 {
+          color: rgba(11, 19, 42, 1);
+          font-family: Rubik;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 30px;
+          letter-spacing: 0%;
+          text-align: left;
+          margin-bottom: 15px;
+        }
+        p {
+          color: rgba(79, 86, 101, 1);
+        margin-bottom: 10px;
+          font-family: Rubik;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
