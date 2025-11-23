@@ -1,14 +1,51 @@
-.cards{
-    display: grid;
-    grid-template-columns: 1fr 2fr 3fr;
-    gap: 50px;
-    padding: 0 40px ;
+.content {
+    .hero {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
 
-    .card{
-        background: rgb(122, 122, 122);
-        border-radius: 10px ;
-        padding: 100px;
-        border: 1px solid black;
-        
-}
+        .title {
+            color: var(--text-color, rgba(37, 43, 66, 1));
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 52px;
+            letter-spacing: 0.1px;
+            text-align: left;
+        }
+        .heroImg {
+            margin-top: 90px;
+        }
+    }
+
+    .images {
+        display: flex;
+        gap: 66px;
+        justify-content: center;
+        align-items: center;
+
+        .img {
+            width: 400px;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+            transition: transform 0.25s ease;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+        }
+
+        .img:nth-child(1),
+        .img:nth-child(3) {
+            transform: translateY(80px);
+        }
+
+        .img:nth-child(2),
+        .img:nth-child(4) {
+            transform: translateY(-40px);
+        }
+
+        // Hover эффект
+        .img:hover {
+            transform: scale(1.05);
+        }
+    }
 }
