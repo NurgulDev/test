@@ -53,7 +53,9 @@ export default function Register() {
         setErrors(newErrors);
 
         if (Object.keys(newErrors).length === 0) {
-            dispatch(registerUser({ name, email, password }));
+            const newUser = { name, email, password };
+            dispatch(registerUser(newUser));
+            localStorage.setItem("currentUser", JSON.stringify(newUser));
             console.log("Успешная регистрация:", { name, email });
             router.push("/home");
         }
