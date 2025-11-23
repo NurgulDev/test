@@ -1,0 +1,172 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 160px 0;
+    justify-content: center;
+    align-items: center;
+    .titleBlock {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        .title {
+            color: #000000;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 70px;
+            text-align: left;
+        }
+        .description {
+            color: rgba(79, 86, 101, 1);
+            font-size: 16px;
+            font-weight: 400;
+            width: 550px;
+            line-height: 30px;
+            text-align: center;
+        }
+    }
+    .coursesBlocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 60px;
+
+        .card {
+            position: relative;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.55);
+            width: 350px;
+            border-radius: 20px;
+            overflow: hidden;
+            cursor: pointer;
+
+            .image {
+                width: 100%;
+                height: 330px;
+                position: relative;
+
+                img {
+                    border-radius: 20px 20px 0 0;
+                    width: 100%;
+                    object-fit: cover;
+                    display: block;
+                }
+
+                .overlay {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 100%;
+                    padding: 20px;
+                    background: linear-gradient(
+                        to top,
+                        rgba(0, 0, 0, 0.8),
+                        rgba(0, 0, 0, 0)
+                    );
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    .cardImgText {
+                        font-size: 20px;
+                        font-weight: 600;
+                        width: max-content;
+                        background: red;
+                        color: var(--light-text-color, rgba(255, 255, 255, 1));
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        border-radius: 5px;
+                        padding: 3px 15px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                        margin-bottom: 215px;
+                    }
+
+                    .likeButton {
+                        width: max-content;
+                        padding: 8px;
+                        border: none;
+                        border-radius: 100%;
+                        color: #fff;
+                        margin-left: 140px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .info {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 25px;
+                .titleText {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .infoTitle {
+                        color: var(--text-color, rgba(37, 43, 66, 1));
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        text-align: left;
+                    }
+                    .infoDesc {
+                        color: var(--second-text-color, rgba(115, 115, 115, 1));
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: 0.2px;
+                        text-align: left;
+                    }
+                }
+                .time {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+                    width: 100%;
+                    .timeBlock {
+                        display: flex;
+                        margin: 0;
+                        flex-direction: row;
+                        gap: 4px;
+                        .timeInfo {
+                            color: var(
+                                --second-text-color,
+                                rgba(115, 115, 115, 1)
+                            );
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 16px;
+                            letter-spacing: 0.2px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+            .button {
+                text-align: center;
+                padding: 12px 15px;
+                width: max-content;
+                border-radius: 25px;
+                background: none;
+                color: var(--primary-color, rgba(35, 166, 240, 1));
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+                text-align: left;
+                border: 1px solid rgba(0, 120, 212, 1);
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover {
+                    transform: translateX(10px);
+                }
+            }
+        }
+    }
+}
