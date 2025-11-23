@@ -2,7 +2,7 @@ import React from 'react'
 
 function SliderHome() {
   return (
-    <div>SliderHome</div>
+    <div>slider</div>
   )
 }
 
